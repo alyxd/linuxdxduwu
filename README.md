@@ -25,3 +25,5 @@ export PS1="(chroot) $PS1"
 mount /dev/sda2 /boot 
 mount /dev/sda1 /boot/efi
 
+eselect profile set 5
+echo America/Los_Angeles > /etc/timezone 
